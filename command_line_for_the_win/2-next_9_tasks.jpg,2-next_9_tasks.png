@@ -1,0 +1,9 @@
+sort access.log
+grep -c "GET" access.log
+cat * | tr ',' '\n'
+echo {1..100}""
+rm -r **/*.txt
+jq -s add *
+ls -R |grep [a-z]
+mv * .*
+ls | tr ' ' '.'0

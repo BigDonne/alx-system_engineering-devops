@@ -1,0 +1,10 @@
+ln -s tmp/files/take-the-command-challenge take-the-command-challenge
+rm -rv /var/challenges/delete_files && mkdir /var/challenges/delete_files
+rm **/*.doc
+grep "GET" access.log
+grep -l 500 *
+ls access.log*
+grep -rh 500
+grep -ro ^[0-9.]*
+ls -l | wc -l
+
